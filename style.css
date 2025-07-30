@@ -1,1 +1,39 @@
-h1{font:bold; background-color: aquamarine;}
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+
+header {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.sort-options {
+  display: flex;
+  gap: 20px;
+}
+
+#links {
+  display: flex;
+  flex-wrap: wrap; /* wrap rows when screen is too small */
+  gap: 20px; /* spacing between items */
+  justify-content: center;
+}
+
+#links > div[data-paperturn] {
+  flex: 1 1 400px; /* shrink/grow, with a preferred width */
+  max-width: 450px;
+  min-width: 300px;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
