@@ -25,9 +25,8 @@ h1 {
   gap: 20px; /* spacing between items */
   justify-content: center;
 }
-
 #links > div[data-paperturn] {
-  flex: 1 1 400px; /* shrink/grow, with a preferred width */
+  flex: 1 1 400px; 
   max-width: 450px;
   min-width: 300px;
   height: auto;
@@ -37,3 +36,4 @@ h1 {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   border-radius: 8px;
 }
+
